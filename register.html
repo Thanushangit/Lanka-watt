@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon" />
+    <title>LankaWatt | Register</title>
+  </head>
+  <body>
+
+    <div
+      class="flex items-center justify-between h-[15vh] w-full bg-[#d4bc0c] py-3 px-2 sm:px-30 z-50"
+    >
+      <div class="flex items-center">
+        <img class="w-14" src="./img/logo.png" alt="logo" />
+        <h1 class="text-2xl sm:text-4xl font-sour text-[#9a3046]">
+          Lanka <span class="font-slabo">Watt</span>
+        </h1>
+      </div>
+
+      <button
+        class="py-2 sm:px-4 px-2 font-semibold rounded outline-0 border-0 bg-sky-600 hover:bg-sky-800 cursor-pointer text-gray-200 shadow-lg transition"
+      >
+        <a href="./index.html">Login</a>
+      </button>
+    </div>
+
+    <div
+    class="h-[85vh] bg-cover bg-center bg-[url('/img/img-1.jpg')] flex items-center justify-center px-2 sm:px-0"
+  >
+    <div
+      class="backdrop-blur-sm bg-white/20 px-8 py-4 rounded-xl shadow-lg w-full max-w-md"
+    >
+      <form>
+        <div class="w-full ">
+          <label for="username">Name with initial</label>
+          <input
+            id="username"
+            type="text"
+            placeholder="Name with initial"
+            class="w-full p-2 mb-2 mt-1 rounded bg-white/80 outline-0 text-gray-700"
+            autofocus
+            required
+          />
+        </div>
+
+        <div class="w-full">
+          <label for="NIC Number">NIC Number</label>
+          <input
+            id="NIC Number"
+            type="text"
+            placeholder="NIC Number"
+            class="w-full p-2 mb-2 mt-1 rounded bg-white/80 outline-0 text-gray-700"
+            required
+          />
+        </div>
+
+        <div class="w-full">
+          <label for="Email">Email</label>
+          <input
+            id="Email"
+            type="email"
+            placeholder="Email"
+            class="w-full p-2 mb-2 mt-1 rounded bg-white/80 outline-0 text-gray-700"
+            required
+          />
+        </div>
+
+        <div class="w-full">
+          <label for="Contact Number">Contact Number</label>
+          <input
+            id="Contact Number"
+            type="tel"
+            placeholder="Contact Number"
+            class="w-full p-2 mb-2 mt-1 rounded bg-white/80 outline-0 text-gray-700"
+            required
+          />
+        </div>
+
+        
+        <div class="w-full">
+          <label for="Password">Password</label>
+          <input
+            id="Password"
+            type="password"
+            placeholder="Password"
+            class="w-full p-2 mb-2 mt-1 rounded bg-white/80 outline-0 text-gray-700"
+            required
+          />
+        </div>
+
+        <div class="w-full">
+          <label for="Repeat Password">Repeat Password</label>
+          <input
+            id="Repeat Password"
+            type="password"
+            placeholder="Repeat Password"
+            class="w-full p-2 mb-2 mt-1 rounded bg-white/80 outline-0 text-gray-700"
+            required
+          />
+        </div>
+
+        <!-- <div class="w-full flex items-center gap-x-2">
+          <input
+            id="condition"
+            type="checkbox"
+            required  
+          />
+          <label for="Repeat Password">I agree to terms & conditions</label>
+          
+        </div> -->
+
+        <button
+          class="w-full p-2 mt-2 bg-pink-600 text-white rounded hover:bg-pink-800 cursor-pointer font-semibold transition"
+          type="submit"
+        >
+          Register
+        </button>
+      </form>
+    </div>
+  </div>
+  </body>
+</html>
