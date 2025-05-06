@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon" />
+    <title>LankaWatt</title>
+  </head>
+  <body>
+    <main>
+      <div
+        class="flex items-center justify-between h-[15vh] w-full bg-[#d4bc0c] py-3 px-2 sm:px-30"
+      >
+        <div class="flex items-center">
+          <img class="w-14" src="./img/logo.png" alt="logo" />
+          <h1 class="text-2xl sm:text-4xl font-sour text-[#9a3046]">
+            Lanka <span class="font-slabo">Watt</span>
+          </h1>
+        </div>
+
+        <button
+          class="py-2 sm:px-4 px-2 font-semibold rounded outline-0 border-0 bg-sky-600 hover:bg-sky-800 cursor-pointer text-gray-200 shadow-lg transition"
+        >
+          New Customer Register
+        </button>
+      </div>
+
+      <div
+        class="h-[85vh] bg-cover bg-center bg-[url('/img/img-1.jpg')] flex items-center justify-center px-2 sm:px-0"
+      >
+        <div
+          class="backdrop-blur-sm bg-white/20 px-8 py-4 rounded-xl shadow-lg w-full max-w-md"
+        >
+          <form>
+            <div class="w-full">
+              <label for="username">username</label>
+              <input
+                id="username"
+                type="text"
+                placeholder="username for verification"
+                class="w-full p-2 mb-2 mt-1 rounded bg-white/80 outline-0 text-gray-700"
+                autofocus
+                required
+              />
+            </div>
+
+            <div class="w-full">
+              <label for="password">password</label>
+              <input
+                id="password"
+                type="password"
+                placeholder="your password"
+                class="w-full p-2 mb-2 mt-1 rounded bg-white/80 outline-0 text-gray-700"
+                required
+              />
+            </div>
+
+            <div class="w-full">
+              <label for="password">type</label>
+              <select
+                name="type"
+                id=""
+                class="w-full p-2 mb-2 mt-1 rounded bg-white/80 outline-0 text-gray-700"
+                required
+              >
+                <option value="" disabled selected>--select the type--</option>
+                <option value="customer">customer</option>
+                <option value="admin">admin</option>
+              </select>
+            </div>
+
+            <button
+              class="w-full p-2 mt-2 bg-pink-600 text-white rounded hover:bg-pink-800 cursor-pointer font-semibold transition"
+              type="submit"
+            >
+              Login
+            </button>
+          </form>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

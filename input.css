@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import "tailwindcss";
+
+
+@theme{
+    --font-slabo:"Slabo 27px", serif;
+    --font-sour:"Sour Gummy", sans-serif;
+}
